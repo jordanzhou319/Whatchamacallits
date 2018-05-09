@@ -22,10 +22,12 @@ h1{
 }
 
 #nav{
-    background-color: #0a4e44;
-    margin-left:100px;
-    margin-right:100px;
-    min-width: 1000px;
+   background-color: #0a4e44;
+   margin-left:100px;
+   margin-right:100px;
+   min-width: 1000px;
+   background: linear-gradient(#0a4e44 90%,black);
+
 }
 #navwrapper{
     width:100%;
@@ -34,14 +36,14 @@ h1{
 }
 #nav ul{
     list-style-type: none;
-    padding:0;
+    padding-left:0px;
     margin: 0;
     position: relative;
     color: #FFFFFF;
 }
 #nav ul li{
     display: inline-block;
-    font-size:17px;
+    font-size:18px;
 }
 #nav ul li:hover{
 }
@@ -86,13 +88,16 @@ h1{
 }
 
 .picture{
-   margin-right:100px;
-   margin-top: -10px;
+   margin-right:130px;
+   margin-top: 10px;
    margin-left:20px;
    background-color: #0a4e44;
    float: right;
-   border:5px solid #0a4e44;
+   border:2px solid black;
    border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
    min-width:250px;
    min-height: 700px;
    padding-left:10px;
@@ -138,14 +143,20 @@ h1{
    background-size: 100% 1.7em;
    min-width:1000px;
 }
+
+h1{
+   font-size:40px;
+}
 h2{
    margin-left:88px;
+   font-size:30px;
 }
 #ed{
-   margin-top:-9px;
+   margin-top:-5px;
    margin-bottom:28px;
 }
 #bio p{
    font-size:16px;
    margin-left:90px;
+   margin-top:-7px;
 }
